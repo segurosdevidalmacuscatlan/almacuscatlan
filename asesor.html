@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hablar con un Asesor - Seguros de Vida Almacuscatlan</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffaf5;
+    }
+    header {
+      background-color: #402000;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 a {
+      text-decoration: none;
+      color: white;
+    }
+    header span {
+      color: red;
+    }
+    nav {
+      background-color: #f5ddc5;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      color: #402000;
+    }
+    .section {
+      padding: 3rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section h2 {
+      text-align: center;
+      color: #402000;
+      margin-bottom: 1rem;
+    }
+    .section p {
+      text-align: center;
+      color: #444;
+      margin-bottom: 3rem;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    .formulario {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: 3rem auto;
+    }
+    .formulario input, .formulario textarea {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    .formulario button {
+      background-color: #402000;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .formulario button:hover {
+      background-color: #301800;
+    }
+    footer {
+      background-color: #402000;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 4rem;
+    }
+    footer span {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html"><span>❤️</span> SEGUROS DE VIDA ALMACUSCATLAN</a></h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="faq.html">FAQ</a>
+    <a href="servicios.html">Servicios</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="cotizar.html">Cotizar</a>
+  </nav>
+
+  <section class="section">
+    <h2>Habla con un Asesor</h2>
+    <p>¿Tienes dudas o necesitas orientación? Estamos aquí para ti. Completa el formulario y uno de nuestros expertos te asistirá rápidamente.</p>
+    <div class="formulario">
+      <form>
+        <input type="text" placeholder="Nombre completo" required />
+        <input type="email" placeholder="Correo electrónico" required />
+        <input type="tel" placeholder="Teléfono de contacto" required />
+        <textarea rows="4" placeholder="¿Cómo podemos ayudarte?" required></textarea>
+        <button type="submit">Hablar con un Asesor</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>¿Por qué hablar con nosotros?</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Juan Pérez">
+        <h3>Juan Pérez</h3>
+        <p>Asesor senior con más de 10 años guiando familias en protección financiera.</p>
+      </div>
+      <div class="card">
+        <img src="https://randomuser.me/api/portraits/women/48.jpg" alt="Lucía Gómez">
+        <h3>Lucía Gómez</h3>
+        <p>Especialista en seguros de vida y bienestar familiar. Te escucha y te orienta.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p><a href="index.html"><span>❤️</span> SEGUROS DE VIDA ALMACUSCATLAN</a></p>
+  </footer>
+</body>
+</html>
